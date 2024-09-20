@@ -13,7 +13,7 @@ def main():
         print("Hi everybody we are in driver")
         print(env.header)
         print(env.envn)
-        print("Calling Spark Object")
+        print("Calling Spark Object to test git as well")
         spark = get_spark_session(env.appName, env.header)
         print("Validating Spark Object...........")
         get_correct_date(spark)
